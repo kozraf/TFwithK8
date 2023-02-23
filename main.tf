@@ -13,6 +13,6 @@ provider "kubernetes" {
 
 resource "kubernetes_namespace" "TF_ns" {
   metadata {
-    name = "TF-ns"
+    name = "terraform-ns"
   }
 }
