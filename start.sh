@@ -7,7 +7,7 @@ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.rel
 
 sudo apt install terraform
 
-sudo apt install docker-ce
+sudo apt install docker-ce -y
 
 sudo tee /home/vagrant/dockerfile <<EOF
 FROM ubuntu:18.04
