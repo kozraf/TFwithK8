@@ -24,4 +24,4 @@ RUN apt-get update && \
 EOF
 
 sudo docker build -t ansible:latest .
-
+sudo docker run -it ansible:latest
