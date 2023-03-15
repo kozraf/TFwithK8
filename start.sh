@@ -10,7 +10,7 @@ sudo apt install terraform
 sudo apt install docker-ce -y
 
 sudo tee /home/vagrant/dockerfile <<EOF
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
   apt-get install -y gcc python-dev libkrb5-dev && \
